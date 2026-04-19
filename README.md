@@ -41,11 +41,6 @@ We used three main data structures:
 - A **dictionary (hash table)** to quickly find items by ID
 - A **binary search tree** to sort items by name, price, or quantity
 
-## Notes
-- Item IDs have to be unique
-- Prices are stored as gold ingots (Minecraft theme)
-- If something doesn’t work, just restart the program and try again
-
 ## Authors
 - Gigi Germanski: gigigermanski@oakland.edu
 - Natalie Muscas: nataliemuscas@oakland.edu
