@@ -37,7 +37,7 @@ There are already sample Minecraft items loaded in when the program starts so yo
 
 We used three main data structures:
 
-- A **list** to store all items and display them
+- A **list/dynamic array** to store all items and display them
 - A **dictionary (hash table)** to quickly find items by ID
 - A **binary search tree** to sort items by name, price, or quantity
 
