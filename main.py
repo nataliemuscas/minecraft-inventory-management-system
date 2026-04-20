@@ -426,6 +426,10 @@ class InventoryGUI:
         Raises ValueError if inputs are invalid.
         """
         item_id = int(self.id_entry.get().strip())
+
+        if item_id < 0:
+            raise ValueError("Item ID cannot be negative.")
+        
         name = self.name_entry.get().strip()
         category = self.category_entry.get().strip()
         price_gold = int(self.price_entry.get().strip())
